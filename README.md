@@ -5,7 +5,8 @@ The FCMacHT_Toolbox should work under ArcGIS Desktop 10.7.1 and older.
 You may need to edit the path to the source files. 
 The code was writen in VB and would need to be transformed into Python script in order to run from the Python window in ArcGIS starting from version 10 of ArcGIS. In Model Builder it should work fine. 
 
-Files description:
+
+<b>Files description:</b>
 
 FCMacHT_Toolboxes.tbx - toolbox of ArcGIS containng two tools:
 
@@ -18,7 +19,8 @@ NDS_attr.dbf, broad environemntal attributes used to calculate FCMacHT for NDS s
 rive_attr.dbf, broad environemntal attributes used to calculate FCMacHT for river segments
 
 
-Field description of .dbf files:
+
+<b>Field description of .dbf files:</b>
 
 
 WSO1_ID,	Riversegment identifier as in CCM dataset
@@ -66,7 +68,8 @@ EnZ_13MDS,	Environmental Zone of immediate catchment of riversegment based on En
 FCMacHT,	Calculated Fish Community Macrohabitat Type 
 
 
-Underlying spatial datasets:
+
+<b>Underlying spatial datasets:</b>
 
 
 CCM: De Jager, A. & Vogt, J. Rivers and Catchments of Europe - Catchment Characterisation Model (CCM). [dataset]. (European Commission, Joint Research Centre (JRC), 2007).
