@@ -69,7 +69,7 @@ FCMacHT,	Calculated Fish Community Macrohabitat Type
 
 
 
-<b><u>Underlying spatial datasets:</b><\u>
+<b><u>Underlying spatial datasets:</b></u>
 
 
 CCM: De Jager, A. & Vogt, J. Rivers and Catchments of Europe - Catchment Characterisation Model (CCM). [dataset]. (European Commission, Joint Research Centre (JRC), 2007).
