@@ -6,7 +6,7 @@ You may need to edit the path to the source files.
 The code was writen in VB and would need to be transformed into Python script in order to run from the Python window in ArcGIS starting from version 10 of ArcGIS. In Model Builder it should work fine. 
 
 
-<b>Files description:</b>
+<b><u>Files description:</b></u>
 
 FCMacHT_Toolboxes.tbx - toolbox of ArcGIS containng two tools:
 
@@ -20,7 +20,7 @@ rive_attr.dbf, broad environemntal attributes used to calculate FCMacHT for rive
 
 
 
-<b>Field description of .dbf files:</b>
+<b><u>Field description of .dbf files:</b></u>
 
 
 WSO1_ID,	Riversegment identifier as in CCM dataset
@@ -69,7 +69,7 @@ FCMacHT,	Calculated Fish Community Macrohabitat Type
 
 
 
-<b>Underlying spatial datasets:</b>
+<b><u>Underlying spatial datasets:</b><\u>
 
 
 CCM: De Jager, A. & Vogt, J. Rivers and Catchments of Europe - Catchment Characterisation Model (CCM). [dataset]. (European Commission, Joint Research Centre (JRC), 2007).
