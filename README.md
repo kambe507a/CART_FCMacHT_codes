@@ -16,11 +16,11 @@ Toolbox.tbx - toolbox of ArcGIS containng two tools:
   
 NDS_attr.dbf, broad environemntal attributes used to calculate FCMacHT for NDS sites
 
-rive_attr.dbf, broad environemntal attributes used to calculate FCMacHT for river segments \n
+rive_attr.dbf, broad environemntal attributes used to calculate FCMacHT for river segments 
 
 
 
-<b><u>Field description of .dbf files:</b></u>\n
+<b><u>Field description of .dbf files:</b></u>
 
 
 WSO1_ID,	Riversegment identifier as in CCM dataset
@@ -66,10 +66,10 @@ EnZ_12MDN,	Environmental Zone of immediate catchment of riversegment based on En
 EnZ_13MDS,	Environmental Zone of immediate catchment of riversegment based on EnZ - Meaditerranean South zone (1,0 values)
 
 FCMacHT,	Calculated Fish Community Macrohabitat Type 
-\n
 
 
-<b><u>Underlying spatial datasets:</b></u>\n
+
+<b><u>Underlying spatial datasets:</b></u>
 
 
 CCM: De Jager, A. & Vogt, J. Rivers and Catchments of Europe - Catchment Characterisation Model (CCM). [dataset]. (European Commission, Joint Research Centre (JRC), 2007).
