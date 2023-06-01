@@ -1,7 +1,7 @@
 # CART_FCMacHT_codes
 ArcGIS Toolbox to automate the CalculateField operation in ArcGIS in order to calculate Fish Community Macrohabitat Types (FCMacHT) over non-disturbed sites and European river network based on the Classification and Regression Trees model. This procedure is proposed in the article 'Over 200,000 kilometers of free-flowing river habitat is altered due to impoundments in Europe ' by Parasiewicz et al., Nature Communications (2023). The necessary data is included in dbf files. The source code of the main tools, scripts and algorithms used in this research is available under the GNU General Public License v3.0 at https://github.com/riverpiotr/FCMacHT_codes/blob/main/LICENSE. Other procedures and GIS steps (as described in Methods) were conducted manually and are therefore not part of the code repository.
 
-The FCMacHT_Toolbox should work under ArcGIS Desktop 10.7.1 and older. In order to use it add the .dbf files to the project and than open a Model Builder and add the Toolbox to the model space. Right-click a tool and select "Edit". 
+The FCMacHT_Toolbox should work under ArcGIS Desktop 10.7.1 and older. In order to use it add the two .dbf files to the project and than open a Model Builder and add the Toolbox.tbx file to the model space. Right-click a tool and select "Edit". 
 You may need to edit the path to the source files. 
 The code was writen in VB and would need to be transformed into Python script in order to run from the Python window in ArcGIS starting from version 10 of ArcGIS. In Model Builder it should work fine. 
 
@@ -16,11 +16,11 @@ Toolbox.tbx - toolbox of ArcGIS containng two tools:
   
 NDS_attr.dbf, broad environemntal attributes used to calculate FCMacHT for NDS sites
 
-rive_attr.dbf, broad environemntal attributes used to calculate FCMacHT for river segments
+rive_attr.dbf, broad environemntal attributes used to calculate FCMacHT for river segments \n
 
 
 
-<b><u>Field description of .dbf files:</b></u>
+<b><u>Field description of .dbf files:</b></u>\n
 
 
 WSO1_ID,	Riversegment identifier as in CCM dataset
@@ -66,10 +66,10 @@ EnZ_12MDN,	Environmental Zone of immediate catchment of riversegment based on En
 EnZ_13MDS,	Environmental Zone of immediate catchment of riversegment based on EnZ - Meaditerranean South zone (1,0 values)
 
 FCMacHT,	Calculated Fish Community Macrohabitat Type 
+\n
 
 
-
-<b><u>Underlying spatial datasets:</b></u>
+<b><u>Underlying spatial datasets:</b></u>\n
 
 
 CCM: De Jager, A. & Vogt, J. Rivers and Catchments of Europe - Catchment Characterisation Model (CCM). [dataset]. (European Commission, Joint Research Centre (JRC), 2007).
