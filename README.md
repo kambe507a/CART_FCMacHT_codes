@@ -8,7 +8,7 @@ The code was writen in VB and would need to be transformed into Python script in
 
 <b><u>Files description:</b></u>
 
-FCMacHT_Toolboxes.tbx - toolbox of ArcGIS containng two tools:
+Toolbox.tbx - toolbox of ArcGIS containng two tools:
 
   20230506_Model_CalculateFiled_NDS_FCMacHT, toolbox calculating FCMacHT for NDS sites provided in NDS_attr.dbf
   
