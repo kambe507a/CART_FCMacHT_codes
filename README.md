@@ -1,10 +1,10 @@
 # CART_FCMacHT_codes
-ArcGIS Toolbox to automate the CalculateField operation in ArcGIS in order to calculate Fish Community Macrohabitat Types (FCMacHT) over non-disturbed sites and European river network based on the Classification and Regression Trees model. This procedure is proposed in the article 'Over 200,000 kilometers of free-flowing river habitat is altered due to impoundments in Europe ' by Parasiewicz et al., Nature Communications (2023). The necessary data is included in dbf files. The source code of the main tools, scripts and algorithms used in this research is available under the GNU General Public License v3.0 at https://github.com/riverpiotr/FCMacHT_codes/blob/main/LICENSE. Other procedures and GIS steps (as described in Methods) were conducted manually and are therefore not part of the code repository.
+ArcGIS Toolbox to automate the CalculateField operation in ArcGIS in order to calculate Fish Community Macrohabitat Types (FCMacHT) over non-disturbed sites and European river network based on the Classification and Regression Trees model. This procedure is proposed in the article 'Over 200,000 kilometers of free-flowing river habitat is altered due to impoundments in Europe ' by Parasiewicz et al., Nature Communications (2023). 
 
-The FCMacHT_Toolbox should work under ArcGIS Desktop 10.7.1 and older. In order to use it add the two .dbf files to the project and than open a Model Builder and add the Toolbox.tbx file to the model space. Right-click a tool and select "Edit". 
-You may need to edit the path to the source files. 
+The Toolbox.tbx should work under ArcGIS Desktop 10.7.1. In order to use it unzip attr.zip file and add the two .dbf files to a ArcMap project. Then open a Model Builder and add the Toolbox.tbx file to the model space. Right-click a tool and select "Edit". You may need to edit the path to the source files in a Tool's dialog window. 
 The code was writen in VB and would need to be transformed into Python script in order to run from the Python window in ArcGIS starting from version 10 of ArcGIS. In Model Builder it should work fine. 
 
+The source code of the main tools, scripts and algorithms used in this research is available under the GNU General Public License v3.0 at https://github.com/riverpiotr/FCMacHT_codes/blob/main/LICENSE. 
 
 <b><u>Files description:</b></u>
 
@@ -16,7 +16,7 @@ Toolbox.tbx - toolbox of ArcGIS containng two tools:
   
 NDS_attr.dbf, broad environemntal attributes used to calculate FCMacHT for NDS sites
 
-rive_attr.dbf, broad environemntal attributes used to calculate FCMacHT for river segments 
+riv_attr.dbf, broad environemntal attributes used to calculate FCMacHT for river segments 
 
 
 
@@ -71,13 +71,10 @@ FCMacHT,	Calculated Fish Community Macrohabitat Type
 
 <b><u>Underlying spatial datasets:</b></u>
 
-
-CCM: De Jager, A. & Vogt, J. Rivers and Catchments of Europe - Catchment Characterisation Model (CCM). [dataset]. (European Commission, Joint Research Centre (JRC), 2007).
-
+CCM 2.1: De Jager, A. & Vogt, J. Rivers and Catchments of Europe - Catchment Characterisation Model (CCM). [dataset]. (European Commission, Joint Research Centre (JRC), 2007).
 IHME1500: BgR & UNESCO. International Hydrogeological Map of Europe 1:1,500,000 (IHME1500). Digital map data v1.2. (Federal Institute for Geosciences and Natural Resources (BGR), 2019).
-
 SGDB: Soil Geographical Database of Eurasia at scale 1:000,000 version 4 beta [dataset]. in The European Soil Database distribution version 2.0, CD-ROM vol. EUR 19945 EN (European Commission, 2004).
-
 EnZ: Metzger, M. J. The Environmental Stratification of Europe [dataset]. (University of Edinburg, 2018).
+
 
 
