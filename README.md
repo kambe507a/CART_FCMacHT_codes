@@ -6,8 +6,6 @@ The code was writen in VB and would need to be transformed into Python script in
 
 The source code of the main tools, scripts and algorithms used in this research is available under the GNU General Public License v3.0 at https://github.com/riverpiotr/FCMacHT_codes/blob/main/LICENSE. 
 
-DOI: https://zenodo.org/badge/latestdoi/636128495
-
 # Files description:
 
 Toolbox.tbx - toolbox of ArcGIS containng two tools:
@@ -78,5 +76,6 @@ IHME1500: BgR & UNESCO. International Hydrogeological Map of Europe 1:1,500,000 
 SGDB: Soil Geographical Database of Eurasia at scale 1:000,000 version 4 beta [dataset]. in The European Soil Database distribution version 2.0, CD-ROM vol. EUR 19945 EN (European Commission, 2004).
 EnZ: Metzger, M. J. The Environmental Stratification of Europe [dataset]. (University of Edinburg, 2018).
 
-
+# DOI: 
+https://zenodo.org/badge/latestdoi/636128495
 
