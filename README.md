@@ -6,7 +6,9 @@ The code was writen in VB and would need to be transformed into Python script in
 
 The source code of the main tools, scripts and algorithms used in this research is available under the GNU General Public License v3.0 at https://github.com/riverpiotr/FCMacHT_codes/blob/main/LICENSE. 
 
-<b><u>Files description:</b></u>
+DOI: https://zenodo.org/badge/latestdoi/636128495
+
+# Files description:
 
 Toolbox.tbx - toolbox of ArcGIS containng two tools:
 
@@ -20,7 +22,7 @@ riv_attr.dbf, broad environemntal attributes used to calculate FCMacHT for river
 
 
 
-<b><u>Field description of .dbf files:</b></u>
+# Field description of .dbf files:
 
 
 WSO1_ID,	Riversegment identifier as in CCM dataset
@@ -69,7 +71,7 @@ FCMacHT,	Calculated Fish Community Macrohabitat Type
 
 
 
-<b><u>Underlying spatial datasets:</b></u>
+# Underlying spatial datasets:
 
 CCM 2.1: De Jager, A. & Vogt, J. Rivers and Catchments of Europe - Catchment Characterisation Model (CCM). [dataset]. (European Commission, Joint Research Centre (JRC), 2007).
 IHME1500: BgR & UNESCO. International Hydrogeological Map of Europe 1:1,500,000 (IHME1500). Digital map data v1.2. (Federal Institute for Geosciences and Natural Resources (BGR), 2019).
