@@ -69,13 +69,14 @@ FCMacHT,	Calculated Fish Community Macrohabitat Type
 
 
 
-# Underlying spatial datasets:
+# Reference material:
 
+Article: Parasiewicz et al. Over 200,000 kilometers of free-flowing river habitat is altered due to impoundments in Europe. Nature Communications (2023).
 CCM 2.1: De Jager, A. & Vogt, J. Rivers and Catchments of Europe - Catchment Characterisation Model (CCM). [dataset]. (European Commission, Joint Research Centre (JRC), 2007).
 IHME1500: BgR & UNESCO. International Hydrogeological Map of Europe 1:1,500,000 (IHME1500). Digital map data v1.2. (Federal Institute for Geosciences and Natural Resources (BGR), 2019).
 SGDB: Soil Geographical Database of Eurasia at scale 1:000,000 version 4 beta [dataset]. in The European Soil Database distribution version 2.0, CD-ROM vol. EUR 19945 EN (European Commission, 2004).
 EnZ: Metzger, M. J. The Environmental Stratification of Europe [dataset]. (University of Edinburg, 2018).
 
 # DOI: 
-https://zenodo.org/badge/latestdoi/636128495
+URL: https://doi.org/10.5281/zenodo.8000052
 
